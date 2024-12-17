@@ -1,0 +1,45 @@
+
+.det-nom{
+    padding-bottom: 40px;
+}
+
+
+.photo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#nom{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#prix{
+    margin-left: 40%;
+    color: rgb(188, 104, 26);
+    font-size: 20px;
+}
+
+
+.photo:hover{
+-ms-transform: scale(2) translate(20px); 
+-webkit-transform: scale(2) translate(20px); 
+transform: scale(2) translate(20px);
+}
+
+.desc{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-size:large;
+}
+
+button{
+    margin-left: 75%;
+    align-items:self-end;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    
+}

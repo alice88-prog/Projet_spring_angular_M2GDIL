@@ -1,0 +1,29 @@
+  <br> <br> <br> <br> <br>
+  <div class="row det">
+    <div class="col-lg-6 photo">
+      <img src="{{produit.image}}" alt="shoes" class="img-fluid">
+    </div>
+    <div class="col-lg-1"> </div>
+    <div class="col-lg-5 row">
+      <div class="col-lg-12 det-nom">
+        <label id="nom"> {{produit.nom}} &nbsp;</label>
+        <label id="prix"> {{produit.prix}} </label>
+      </div>
+      <hr/> 
+      <div class="col-lg-12"></div>
+      <div class="col-lg-12 ">
+         {{produit.designation}} 
+      </div>      
+      <div class="col-lg-12"> 
+        <br> <br>
+        <button type="text" class="btn btn-dark" (click)="ajouterAchat(produit.id)"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg>
+          Ajouter</button>
+      </div>
+    </div>
+  </div>
+  
+
+ 

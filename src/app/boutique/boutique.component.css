@@ -1,0 +1,85 @@
+body{
+    padding: 20px;
+}
+.active{
+    color: white;
+}
+
+#entete{
+    justify-content: right;    
+    padding-top: 7%;
+}
+
+.soulignement{
+    text-decoration: none;
+    color:brown;
+}
+
+
+.navbar{
+    background-color: rgb(228, 228, 228)!important;
+    
+}
+header{
+    align-items: center;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+.nav-link{
+    font-size: 30px;
+    border-right: 15px;
+    
+}
+
+.premiere-ligne{
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+}
+
+.collapse{
+    justify-content: space-between!important;
+    align-items: center;
+}
+
+.produits{
+    
+    justify-content: space-between;
+    
+}
+
+
+.produits .carte{
+   
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(#e6f0e0, 2%, white);
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: rgb(228, 228, 228);
+    height: 80px;
+    padding: 25px;
+}
+
+svg{
+    margin-right: 8px;
+}
+
+.prix{
+    margin-left: 60%;
+    color: rgb(210, 161, 15);
+    font-size: 15px!important;
+}
+
+.desc{
+    margin-left: 55%;
+
+}
